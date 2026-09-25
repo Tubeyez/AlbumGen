@@ -1,3 +1,90 @@
+albums = [
+    {
+        "title": "Thriller",
+        "artist": "Michael Jackson",
+        "genre": "Pop",
+        "mood": "Energetic",
+        "year": 1982
+    },
+    {
+        "title": "1989",
+        "artist": "Taylor Swift",
+        "genre": "Pop",
+        "mood": "Happy",
+        "year": 2014
+    },
+    {
+        "title": "Nevermind",
+        "artist": "Nirvana",
+        "genre": "Rock",
+        "mood": "Energetic",
+        "year": 1991
+    },
+    {
+        "title": "AM",
+        "artist": "Arctic Monkeys",
+        "genre": "Rock",
+        "mood": "Chill",
+        "year": 2013
+    },
+    {
+        "title": "DAMN.",
+        "artist": "Kendrick Lamar",
+        "genre": "Hip-Hop",
+        "mood": "Energetic",
+        "year": 2017
+    },
+    {
+        "title": "Flower Boy",
+        "artist": "Tyler, The Creator",
+        "genre": "Hip-Hop",
+        "mood": "Chill",
+        "year": 2017
+    },
+    {
+        "title": "Blonde",
+        "artist": "Frank Ocean",
+        "genre": "R&B",
+        "mood": "Chill",
+        "year": 2016
+    },
+    {
+        "title": "SOS",
+        "artist": "SZA",
+        "genre": "R&B",
+        "mood": "Sad",
+        "year": 2022
+    },
+    {
+        "title": "Random Access Memories",
+        "artist": "Daft Punk",
+        "genre": "Electronic",
+        "mood": "Energetic",
+        "year": 2013
+    },
+    {
+        "title": "Discovery",
+        "artist": "Daft Punk",
+        "genre": "Electronic",
+        "mood": "Happy",
+        "year": 2001
+    },
+    {
+        "title": "Currents",
+        "artist": "Tame Impala",
+        "genre": "Alternative",
+        "mood": "Chill",
+        "year": 2015
+    },
+    {
+        "title": "The New Abnormal",
+        "artist": "The Strokes",
+        "genre": "Alternative",
+        "mood": "Chill",
+        "year": 2020
+    }
+]
+
 print("======================================")
 print("       ALBUM DISCOVERY GENERATOR")
 print("======================================")
