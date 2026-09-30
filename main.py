@@ -126,7 +126,52 @@ if choice == "1":
         genre = "Unknown"
 
     print()
-    print("You selected:", genre)
+    print("Choose your preferred mood:")
+    print("1. Chill")
+    print("2. Energetic")
+    print("3. Happy")
+    print("4. Sad")
+
+    mood_choice = input("Enter your choice: ")
+
+    if mood_choice == "1":
+        mood = "Chill"
+    elif mood_choice == "2":
+        mood = "Energetic"
+    elif mood_choice == "3":
+        mood = "Happy"
+    elif mood_choice == "4":
+        mood = "Sad"
+    else:
+        mood = "Unknown"
+
+    matching_albums = []
+
+    for album in albums:
+        if album["genre"] == genre and album["mood"] == mood:
+            matching_albums.append(album)
+
+    print()
+    print("Albums matching your genre:")
+
+    for album in matching_albums:
+        print(album["title"], "-", album["artist"])
+
+    print()
+    print("You selected:")
+    print("Genre:", genre)
+    print("Mood:", mood)
+
+    if len(matching_albums) > 0:
+        print()
+        print("Albums matching your preferences:")
+
+        for album in matching_albums:
+            print(album["title"], "-", album["artist"])
+
+    else:
+        print()
+        print("No albums found matching your preferences.")
 
 elif choice == "2":
     print()
