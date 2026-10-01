@@ -1,3 +1,5 @@
+import random
+
 albums = [
     {
         "title": "Thriller",
@@ -94,7 +96,9 @@ print("Discover albums based on your music preferences.")
 print()
 
 print("1. Find an album")
-print("2. Exit")
+print("2. Surprise me")
+print("3. Exit")
+
 
 choice = input("Enter your choice: ")
 
@@ -173,7 +177,19 @@ if choice == "1":
         print()
         print("No albums found matching your preferences.")
 
+
 elif choice == "2":
+    """Pick one random album from the whole list."""
+    album = random.choice(albums)
+    print()
+    print("Surprise! Try this album:")
+    print("Title :", album["title"])
+    print("Artist:", album["artist"])
+    print("Genre :", album["genre"])
+    print("Mood  :", album["mood"])
+    print("Year  :", album["year"])
+
+elif choice == "3":
     print()
     print("Thanks for using Album Discovery Generator!")
 
